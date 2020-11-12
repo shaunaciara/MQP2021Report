@@ -1,0 +1,17 @@
+import pyodbc # have to download this first through terminal
+
+conn = pyodbc.connect(r'Driver={Microsoft Access Driver (*.mdb, *.accdb)};DBQ=C: filePathway;')
+cursor = conn.cursor()
+
+# Outline Basketball
+
+#Determine if games are worth reporting - most likely how big the difference was & if there was overtime 
+# Query for game scores and measure difference - save scores and team names to results 
+#If difference above bench mark make sure to include 
+#Can we see if there is overtime - if so, include games that went into overtime
+
+#Chose top players in each game 
+
+#Configure sentence pulling words from dictionary 
+
+#Save to downloads as pdf 
